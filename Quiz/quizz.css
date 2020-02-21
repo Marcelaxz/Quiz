@@ -1,0 +1,67 @@
+body {
+    background-image: radial-gradient(circle, #44a08d, #318478, #216963, #144f4d, #093637);
+}
+
+img {
+   /** width: 1170px;
+    height: 400px **/
+    width: 500px;
+    
+}
+
+article { 
+background-color: #f2f2f2;
+margin: 100px 160px 0px 160px;
+border-radius: 8px;
+border: #44a08d solid 1px;
+box-shadow: 10px 10px 10px darkslategray;
+padding: 5px 13px 5px 13px;
+text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    text-shadow: #44a08d 0px 1px 0.9px;
+}
+
+button {
+    margin-top: 5px;
+    
+}
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 1150px;
+    border: 5px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    text-align: justify;
+    cursor: pointer;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus  {
+   outline: none;
+   
+}
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+        background-color:  #44a08d;
+
+}
+
+h4 {
+    text-align: center;
+    background-color: #44a08d;
+    padding: 5px;
+    box-shadow: 5px 5px 5px darkslategray;
+    border-radius:4px;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+h4:hover{
+    box-shadow: 10px 10px 10px darkslategray;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
